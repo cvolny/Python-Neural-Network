@@ -2,11 +2,21 @@ A pure python implementation of a neural network.
 
 Original Author: Neil Schemenauer <nas@arctrix.com>
 Modified Author: James Howard <james.w.howard@gmail.com>
+Modified Author: Christopher J. Volny <cvolny@gmail.com>
 
-Added capabilities of network to perform non-linear function regression.  
-Also added a plot command for regression which can only be used if 
-matplotlib is installed.
+1. Custom patterns entered from command line
+2. Early Stopping
+3. Configurable number of hidden nodes
+4. Uses python logging to better configure verbose output
+5. Refactored to better support multiple training methods
+6. Uses numpy for matrix/array work
 
 
 TODO:
-	Early Stopping, bayesian weight decay.
+	Training:
+		- GA
+		- PSO
+	Regression:
+		- readd regression support that cvolny broke
+	Basian weight decay:
+		- cvolny to learn what this is!
