@@ -1,8 +1,8 @@
-A pure python implementation of a neural network.  
+A python + numpy implementation of a neural network.  
 
-Original Author: Neil Schemenauer <nas@arctrix.com>
-Modified Author: James Howard <james.w.howard@gmail.com>
 Modified Author: Christopher J. Volny <cvolny@gmail.com>
+Modified Author: James Howard <james.w.howard@gmail.com>
+Original Author: Neil Schemenauer <nas@arctrix.com>
 
 1. Custom patterns entered from command line
 2. Early Stopping
