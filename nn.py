@@ -1,5 +1,7 @@
 #!/usr/bin/python2
-
+""" Artificial Neural Network in Python and Numpy
+	supports bp and (broken) ga for training.
+"""
 
 import math
 import numpy
